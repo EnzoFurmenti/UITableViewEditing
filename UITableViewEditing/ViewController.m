@@ -43,23 +43,6 @@ typedef enum{
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-//    NSMutableArray *mArrayGroups = [[NSMutableArray alloc]init];
-//    
-//    for (int i = 0; i <= arc4random() % 10; i++)
-//    {
-//        Group *group = [[Group alloc]initGroupWithNumberOfRandomStudents:arc4random() % 10 andTitleOfHeader:[NSString stringWithFormat:@"Группа-%d",i] andGroupColor:[self randomColor]];
-//        [mArrayGroups addObject:group];
-//    }
-//    
-//     [mArrayGroups sortUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
-//        Group *group1 = (Group*)obj1;
-//        Group *group2 = (Group*)obj2;
-//        return [group1.titleOfHeader  localizedCompare:group2.titleOfHeader];
-//    }];
-//    NSArray *arrayGroups = [[NSArray alloc]initWithArray:mArrayGroups];
-//    self.arrayGroups = arrayGroups;
-    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
